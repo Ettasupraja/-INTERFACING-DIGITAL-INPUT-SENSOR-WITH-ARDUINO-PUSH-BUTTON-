@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE :19.02.24
+## NAME :ETT ASUPRAJA																			             
+## ROLLNUMBER :212223220022
+## DEPARTMENT :INFORMATION TECHNOLOGY
 
 
 ## AIM:
@@ -52,7 +52,9 @@ FIGURE-02
 ## CIRCUIT DIAGRAM 
 
 
-![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
+![Screenshot 2024-02-18 222217](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151641352/d3287264-a682-4fd2-9500-1bde28224ca2)
+
+
 
 
 
@@ -63,7 +65,31 @@ FIGURE -03
 
 ## PROGRAM 
  
- 
+ int led=4;
+int pushbutton=3;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb =digitalRead(pushbutton);
+    if(pb==HIGH)
+      
+    {
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+      delay(500);
+    }
+  else
+  { delay(500);
+     digitalWrite(led, LOW);
+  }
+}
 
 
 
@@ -80,6 +106,9 @@ FIGURE -03
 
 
 ## OUTPUT OF SIMULATION :
+[Glorious Turing (1).pdf](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/files/14327856/Glorious.Turing.1.pdf)
 
-[My image](username.github.com/repository/img/image.jpg)
+
+![Screenshot 2024-02-18 222217](https://github.com/vasanthkumarch/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151641352/753a6474-ef92-4d89-a09b-9555ec06a6c0)
+
 
