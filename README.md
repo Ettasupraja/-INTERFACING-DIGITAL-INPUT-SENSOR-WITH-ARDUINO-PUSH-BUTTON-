@@ -93,3 +93,8 @@ void loop()
 ## OUTPUT OF SIMULATION :
 
 ![WhatsApp Image 2024-02-20 at 05 03 44_39762c9f](https://github.com/Ettasupraja/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151641352/de037775-62ca-457f-9291-35aa2ac7a696)
+
+
+
+
+[Glorious Turing (2).pdf](https://github.com/Ettasupraja/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/files/14339753/Glorious.Turing.2.pdf)
