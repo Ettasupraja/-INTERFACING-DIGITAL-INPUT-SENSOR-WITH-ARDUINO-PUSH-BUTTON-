@@ -96,4 +96,4 @@ void loop()
 
 ## RESULT
 Interfacing with Push button and LED was executed successfully.
-[Glorious Turing (2).pdf](https://github.com/Ettasupraja/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/files/14339753/Glorious.Turing.2.pdf)
+
